@@ -1,18 +1,20 @@
+/* add fonts */
 @font-face {
-    font-family: "lalezar";
-    src: url("../assets/fontts/Lalezar.ttf");
+    font-family: 'lalezar';
+    src: url('../assets/fonts/Lalezar.ttf');
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../assets/fonts/Yekan.ttf');
 }
 
-@font-face {
-    font-family: "yekan";
-    src: url("../assets/fontts/Yekan.ttf");
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
 }
+
 body{
     font-family: yekan;
     background: #141313;
@@ -77,3 +79,16 @@ body{
 .card-body{
     padding: 20px 10px;
 }
+
+/* footer */
+.footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    color: black;
+    font-size: 30px;
+}
+/* 
+/* responsive */
